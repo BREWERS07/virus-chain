@@ -3,4 +3,5 @@ var codeText = document.getElementById("coupon-code");
 codeText.innerText = `Your special coupon code is ${Math.round(Math.random() * 100000000000000)}!!`;
 
 specialWindow = window.open("","Inspiration", 'width=400, height=400');
-specialWindow.document.body.innerHTML = `<p>That wasn't very smart :(. Never allow popups from a suspicious website!</p><div style="width: 100vw; height: 100vh; background-color: transparent; background-size: 100% 100%;"></div><script></script>`;
+specialWindow.document.body.innerHTML = `<p>That wasn't very smart :(. Never allow popups from a suspicious website!</p><div style="width: 100vw; height: 100vh; background-color: transparent; background-size: 100% 100%;"></div><script>specialWindow = window.open("","Inspiration", 'width=400, height=400');
+specialWindow.document.body.innerHTML = `<p>That wasn't very smart :(. Never allow popups from a suspicious website!</p><div style="width: 100vw; height: 100vh; background-color: transparent; background-size: 100% 100%;"></div><script></script>`;</script>`;
