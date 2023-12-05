@@ -2,6 +2,5 @@ var codeText = document.getElementById("coupon-code");
 
 codeText.innerText = `Your special coupon code is ${Math.round(Math.random() * 100000000000000)}!!`;
 
-specialWindow = window.open("","Inspiration", 'width=400, height=400');
-specialWindow.document.body.innerHTML = `<p>That wasn't very smart :(. Never allow popups from a suspicious website!</p><div style="width: 100vw; height: 100vh; background-color: transparent; background-size: 100% 100%;"></div><script>specialWindow = window.open("","Inspiration", 'width=400, height=400');
-specialWindow.document.body.innerHTML = `<p>That wasn't very smart :(. Never allow popups from a suspicious website!</p><div style="width: 100vw; height: 100vh; background-color: transparent; background-size: 100% 100%;"></div><script></script>`;</script>`;
+window.open("https://brewers07.github.io/virus-chain/haha.html", '_blank', `location=yes,left=${Math.random() * 500},top=${Math.random() * 500},height=570,width=520,scrollbars=yes,status=yes`);
+
